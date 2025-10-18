@@ -1,5 +1,48 @@
-bin/
-obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+## Rider
+.idea/
+*.sln.iml
+*.csproj.iws
+*.DotSettings.user
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+## Compiled files
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
+
+## VS Code
+.vscode/
+
+## NuGet
+[Nn]u[Gg]et/
+*.nupkg
+NuGet.exe
+packages/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+
+## OS
+.DS_Store
+Thumbs.db
