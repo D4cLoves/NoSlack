@@ -1,9 +1,12 @@
-﻿namespace NoSlack;
+﻿using NoSlack.UI;
+
+namespace NoSlack;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var a = new MainMenu();
+        a.Start();
     }
 }
