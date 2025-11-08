@@ -1,0 +1,6 @@
+@NoSlackApi_HostAddress = http://localhost:5078
+
+GET {{NoSlackApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
