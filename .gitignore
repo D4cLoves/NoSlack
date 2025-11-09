@@ -8,3 +8,5 @@ riderModule.iml
 .idea_modules/
 *.iws
 out/
+habits.db
+*.db
