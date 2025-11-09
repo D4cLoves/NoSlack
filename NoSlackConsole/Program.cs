@@ -1,9 +1,13 @@
-﻿namespace NoSlackConsole;
+﻿using NoSlackConsole.Services;
+using NoSlackConsole.UI;
+
+namespace NoSlackConsole;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)  // ← ДОБАВЬ async Task!
     {
-        Console.WriteLine("Hello, World!");
+        var client = new ApiClient();
+        await new MainMenu(client).Show();
     }
 }
